@@ -1,0 +1,26 @@
+[
+  {
+    "title": "YourAnalyst",
+    "imageSrc": "projects/YourAnalyst.png",
+    "description": "Fully Authenticated Data Analysis Web App with AI-power",
+    "skills": ["Flask", "HTML", "CSS","JavaScript"],
+    "demo": "https://youranalyst.onrender.com/",
+    "source": "https://github.com/Abhibhav2003/YourAnalyst-Flask"
+  },
+  {
+    "title": "Progress Tracker",
+    "imageSrc": "projects/Progress-Tracker.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Node", "HTML","CSS","JavaScript","MongoDB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Abhibhav2003/Progress-Tracker"
+  },
+  {
+    "title": "Portfolio Project",
+    "imageSrc": "projects/portfolio.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "HTML", "CSS","JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com/Abhibhav2003/Portfolio"
+  }
+]

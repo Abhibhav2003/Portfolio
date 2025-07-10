@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Intern",
+    "organisation": "DIC,UIET",
+    "startDate": "Jun, 2025",
+    "endDate": "Present",
+    "experiences": ["Developing Multi-Modal Attendance System", "Working With Computer Vision Libraries"],
+    "imageSrc": "history/DIC.png"
+  },
+  {
+    "role": "Trainee",
+    "organisation": "The Tribune",
+    "startDate": "Jun, 2024",
+    "endDate": "July, 2024",
+    "experiences": ["Learnt Advanced Writing SQL Queries", "Learnt Python For Data Analaysis"],
+    "imageSrc": "history/TheTribune.jfif"
+  },
+  {
+    "role": "Summer Trainee",
+    "organisation": "DIC,UIET",
+    "startDate": "Jun, 2023",
+    "endDate": "July, 2023",
+    "experiences": [
+      "Worked with Tableau for effective data visualization",
+      "Created Insightful Dashboards"
+    ],
+    "imageSrc": "history/DIC.png"
+  }
+]

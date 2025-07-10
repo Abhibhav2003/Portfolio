@@ -1,0 +1,122 @@
+@import "../../vars.css";
+
+/* Container for horizontal card layout */
+.cards-container {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+  width: 280px;
+  height: 350px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  margin-bottom: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.3;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+.link {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .cards-container {
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .container {
+    width: 250px;
+    height: 320px;
+  }
+  
+  .links {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
