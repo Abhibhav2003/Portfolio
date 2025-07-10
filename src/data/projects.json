@@ -12,7 +12,7 @@
     "imageSrc": "projects/Progress-Tracker.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Node", "HTML","CSS","JavaScript","MongoDB"],
-    "demo": "https://www.example.com",
+    "demo": "#",
     "source": "https://github.com/Abhibhav2003/Progress-Tracker"
   },
   {
@@ -20,7 +20,7 @@
     "imageSrc": "projects/portfolio.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "HTML", "CSS","JavaScript"],
-    "demo": "https://www.example.com",
+    "demo": "https://portfolio-website-pmwj.onrender.com/",
     "source": "https://www.github.com/Abhibhav2003/Portfolio"
   }
 ]
